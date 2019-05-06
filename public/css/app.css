@@ -1,0 +1,73 @@
+.logo {
+    width: 158px;
+    height: 30px;
+    margin: 1.25rem 0;
+    display: inline-block;
+    background-image: url(../images/virtuagym-logo.svg);
+    white-space: nowrap;
+    text-indent: 1000px;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.loader{
+    background-image: url('../images/loading.gif');
+    background-size: cover;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+.plan-item{
+    background: #f8f9fa;
+}
+
+.zoom {
+    transition: transform .3s;
+    background: #f8f9fa;
+    z-index: 999999;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.plan-header{
+    background-color:#4A90E2; 
+    height:45px;
+    border-bottom:solid 1px #C5C5C5;
+    display:flex;
+    align-items:center;
+    padding: 0px 10px 0px 10px;
+    color: #FFFFFF;
+}
+
+.plan-day-item,.exercise-list{
+    padding: 0px 10px 0px 10px;
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: solid 1px #C5C5C5;
+}
+
+.selected{
+    background-color: #F8F9F9;
+}
+
+#add-more{
+    cursor: pointer;
+}
+
+.form-control {
+    height: auto;
+}
+.btn-primary {
+    background-color: #F49900!important;
+    border-color: #F49900!important;
+}
